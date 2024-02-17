@@ -99,8 +99,10 @@ useEffect(() => {
           <span>amitkumar89155@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[23.88061, 90.32190]} zoom={13}>
-            <TileLayer url="https://b.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+          <MapContainer center={[23.8806, 90.3219]} zoom={13}>
+            <TileLayer 
+            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[23.88061, 90.32190]}>
               <Popup>Wellcome To My Contact page.</Popup>
             </Marker>
