@@ -8,19 +8,19 @@
         {
             "cover": "https://i.ibb.co/7zY6J0T/Job-Doc-Home.png",
             "title": "Job Doc",
-            "description": "React, JSX, Tailwind, Daisy UI",
-            "url": "http://google.com"
+            "description": "React, Exprss JS, Tailwind, Daisy UI",
+            "url": "https://jobdoc-de92b.web.app"
         },
         {
             "cover": "https://i.ibb.co/4Ns5cDQ/Love-Weeding-Home.png",
             "title": "Love and Wedding",
-            "description": "React, JSX, Tailwind, Jest",
+            "description": "React, JSX, Tailwind, Daisy UI",
             "url": "https://love-and-wedding-demo-site.vercel.app/"
         },
         {
             "cover": "https://i.ibb.co/0sbS5sX/Best-Car-Home.png",
             "title": "Car Shop",
-            "description": "React, JSX, Tailwind, Jest",
+            "description": "React, JSX, Tailwind, MongoDB",
             "url": "https://assignment-10-96bf6.web.app/"
         }
 ]
