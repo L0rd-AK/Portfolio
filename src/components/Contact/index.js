@@ -8,11 +8,11 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import L from 'leaflet';
 import iconMarker from 'leaflet/dist/images/marker-icon.png'
-import iconRetina from 'leaflet/dist/images/marker-icon-2x.png'
+// import iconRetina from 'leaflet/dist/images/marker-icon-2x.png'
 import iconShadow from 'leaflet/dist/images/marker-shadow.png'
 const Contact = () => {
     const icon = L.icon({ 
-        iconRetinaUrl:iconRetina, 
+        // iconRetinaUrl:iconRetina, 
         iconUrl: iconMarker, 
         shadowUrl: iconShadow 
     });
@@ -32,7 +32,7 @@ useEffect(() => {
     e.preventDefault()
 
     emailjs
-      .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
+      .sendForm('service_8vi52w4', 'template_ue5lzrh', form.current, 'Nw2eLjHi1C2PE8ltS')
       .then(
         () => {
           alert('Message successfully sent!')
