@@ -6,8 +6,16 @@ import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-
+import L from 'leaflet';
+import iconMarker from 'leaflet/dist/images/marker-icon.png'
+import iconRetina from 'leaflet/dist/images/marker-icon-2x.png'
+import iconShadow from 'leaflet/dist/images/marker-shadow.png'
 const Contact = () => {
+    const icon = L.icon({ 
+        iconRetinaUrl:iconRetina, 
+        iconUrl: iconMarker, 
+        shadowUrl: iconShadow 
+    });
   const [letterClass, setLetterClass] = useState('text-animate')
   const form = useRef()
 
@@ -103,7 +111,7 @@ useEffect(() => {
             <TileLayer 
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[23.88061, 90.32190]}>
+            <Marker position={[23.88061, 90.32190]} icon={icon}>
               <Popup>Wellcome To My Contact page.</Popup>
             </Marker>
           </MapContainer>
