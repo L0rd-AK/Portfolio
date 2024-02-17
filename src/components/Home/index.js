@@ -62,7 +62,6 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        {/* <Logo /> */}
         <div className='ml-[900px] mt-28'>
             <img className='rounded-full h-[400px] w-[400px] border-[#ffd700] border-2' src={Logo} alt="JavaScript Developer Name, Web Developer Name"/>
         </div>
