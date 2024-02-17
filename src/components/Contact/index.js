@@ -56,9 +56,7 @@ useEffect(() => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+          I am looking for a job as a front-end developer - preferably on projects that are challenging and diverse. If you have any inquiries or suggestions, please feel free to reach out to me using the form below.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
