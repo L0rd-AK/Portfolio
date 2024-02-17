@@ -1,32 +1,26 @@
 [
         {
-            "cover": "/portfolio/1/one.png",
+            "cover": "https://i.ibb.co/0MZVtRR/Med-Lab-Home.png",
             "title": "MedLab",
             "description": "Get the answers you need for a healthier you at our medical diagnostic center.",
             "url": "https://medlab-3e261.web.app/"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
+            "cover": "https://i.ibb.co/7zY6J0T/Job-Doc-Home.png",
+            "title": "Job Doc",
+            "description": "React, JSX, Tailwind, Daisy UI",
             "url": "http://google.com"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
+            "cover": "https://i.ibb.co/4Ns5cDQ/Love-Weeding-Home.png",
+            "title": "Love and Wedding",
             "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "url": "https://love-and-wedding-demo-site.vercel.app/"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
+            "cover": "https://i.ibb.co/0sbS5sX/Best-Car-Home.png",
+            "title": "Car Shop",
             "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "url": "https://assignment-10-96bf6.web.app/"
         }
 ]
