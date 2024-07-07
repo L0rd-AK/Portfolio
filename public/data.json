@@ -6,6 +6,12 @@
             "url": "https://tution-ex-frontend.vercel.app/"
         },
         {
+            "cover": "https://i.ibb.co/3pVRzZb/home.png",
+            "title": "Resume Builder",
+            "description": "React.js, Exprss JS, MngoDB, Tailwind",
+            "url": "https://courageous-daifuku-cfba5f.netlify.app/"
+        },
+        {
             "cover": "https://i.ibb.co/0MZVtRR/Med-Lab-Home.png",
             "title": "MedLab",
             "description": "Get the answers you need for a healthier you at our medical diagnostic center.",
